@@ -27,7 +27,7 @@ class MovieDetails extends Component {
             </p>
             <p>
               <span>Rating:</span>
-              <span style={{ color: 'gold' }}>{rating}★</span>
+              <span style={{ color: 'gold' }}>★{rating}</span>
             </p>
             <p>
               <span>Description:</span> {description}
