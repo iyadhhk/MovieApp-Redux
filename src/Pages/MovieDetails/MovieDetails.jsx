@@ -26,7 +26,8 @@ class MovieDetails extends Component {
               <span>Release Year:</span> {year}
             </p>
             <p>
-              <span>Rating:</span> {rating}
+              <span>Rating:</span>
+              <span style={{ color: 'gold' }}>{rating}★</span>
             </p>
             <p>
               <span>Description:</span> {description}
